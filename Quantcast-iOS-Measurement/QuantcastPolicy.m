@@ -341,10 +341,10 @@
 
 #pragma mark - Policy Factory
 #ifndef QCMEASUREMENT_POLICY_URL_FORMAT_APIKEY
-#define QCMEASUREMENT_POLICY_URL_FORMAT_APIKEY      @"http://m.quantcount.com/policy.json?a=%@&v=%@&t=%@&c=%@"
+#define QCMEASUREMENT_POLICY_URL_FORMAT_APIKEY      @"https://m.quantcount.com/policy.json?a=%@&v=%@&t=%@&c=%@"
 #endif
 #ifndef QCMEASUREMENT_POLICY_URL_FORMAT_PKID
-#define QCMEASUREMENT_POLICY_URL_FORMAT_PKID        @"http://m.quantcount.com/policy.json?p=%@&n=%@&v=%@&t=%@&c=%@"
+#define QCMEASUREMENT_POLICY_URL_FORMAT_PKID        @"https://m.quantcount.com/policy.json?p=%@&n=%@&v=%@&t=%@&c=%@"
 #endif
 #define QCMEASUREMENT_POLICY_PARAMETER_CHILD        @"&k=YES"
 +(QuantcastPolicy*)policyWithAPIKey:(NSString*)inQuantcastAPIKey networkPCode:(NSString*)inNetworkPCode networkReachability:(id<QuantcastNetworkReachability>)inReachability countryCode:(NSString*)countryCode appIsDirectAtChildren:(BOOL)inAppIsDirectedAtChildren {

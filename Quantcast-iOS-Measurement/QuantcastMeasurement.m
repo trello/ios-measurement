@@ -1196,7 +1196,7 @@ static void QuantcastReachabilityCallback(SCNetworkReachabilityRef target, SCNet
 }
 
 -(void)displayQuantcastPrivacyPolicy:(UIViewController*)inController{
-    NSURL* qcPrivacyURL = [NSURL URLWithString:@"http://www.quantcast.com/privacy/"];
+    NSURL* qcPrivacyURL = [NSURL URLWithString:@"https://www.quantcast.com/privacy/"];
     if(nil == inController){
         [[UIApplication sharedApplication] openURL:qcPrivacyURL];
     }else{

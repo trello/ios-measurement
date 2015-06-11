@@ -116,7 +116,7 @@
 #define QCMEASUREMENT_CONN_TIMEOUT_SECONDS      60
 
 #ifndef QCMEASUREMENT_UPLOAD_URL
-    #define QCMEASUREMENT_UPLOAD_URL            @"http://m.quantcount.com/mobile"
+    #define QCMEASUREMENT_UPLOAD_URL            @"https://m.quantcount.com/mobile"
 #endif
 
 #define QCMEASUREMENT_SUPPORT_DIRNAME             @"qc-measurement-support"
